@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  
+  <div id="myModal" class=" hidden fixed inset-0 bg-black bg-opacity-50 flex  justify-center">
+    <div class="relative bg-gray-900 rounded-lg shadow-lg h-[150px] w-[400px] p-6 ">
+      <h2 class="text-[16px] font-bold text-gray-100 mb-4">emergency.service.netify.app.says</h2>
+      <p class="text-gray-100 text-[12px] mb-6">📞 Calling National Emergency Service <span class="font-semibold">999</span>...</p>
+      <button onclick="closeModal()" class="bg-gray-100 hover:bg-red-600 absolute right-4 bottom-4 font-semibold px-6 py-2 rounded-[50px] shadow">
+        ok
+      </button>
+    </div>
+  </div>
+
+  
+  <button onclick="showModal()" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg shadow">
+    জরুরি কল করুন
+  </button>
+
+  <script>
+    function showModal() {
+      document.getElementById("myModal").classList.remove("hidden");
+    }
+    function closeModal() {
+      document.getElementById("myModal").classList.add("hidden");
+    }
+  </script>
+
+</body>
+</html>
