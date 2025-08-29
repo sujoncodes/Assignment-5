@@ -8,39 +8,28 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>A-5: Emergency Service</title>
 
-    <style>
-        :root{
-            --dark-green-color: #006747;
-            --dark2-green-color: #32A149;
-            --primary-color: #00A63E;
-            --soft-green-color: #41FF6B1A;
-        }
-
-</style>
-    </style>
-
 </head>
 <body class="bg-[#f5fff6]">
 
                                     <!-- navbar -->
 
-    <nav class="flex justify-between items-center mx-[60px] py-[23px]">
+    <nav class="flex justify-between items-center mx-[15px] py-[15px]  lg:mx-[60px] lg:py-[23px]">
         <div class="flex items-center justify-between w-[145px] h-[50px] ">
             <div>
                 <img class="h-[50px] w-[50px]" src="./assets/logo.png" alt="">
             </div>
-            <p class="text-[1rem] font-bold text-[#006747]">Emergency <br>Service</p>
+            <p class="text-[15px] lg:text-[1rem] font-bold text-[#006747]">Emergency <br>Service</p>
         </div>
-        <div class="flex items-center gap-[20px]">
-            <div class= "flex items-center justify-center w-[123px] h-[52px] rounded-[50px] gap-[10px] bg-[#41FF6B1A] ">
-                <span id="heart-icon">0</span>
-                <img class="h-[30px] w-[30px]" src="./assets/heart.png" alt="">                
+        <div class="flex items-center gap-[5px] lg:gap-[20px]">
+            <div class= "flex items-center justify-center w-[60px] h-[35px] lg:w-[123px] lg:h-[52px] rounded-[50px] gap-[10px] bg-[#41FF6B1A] ">
+                <span class="text-[15px] lg:text-[18px]" id="heart-icon">0</span>
+                <img class="h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]" src="./assets/heart.png" alt="">                
             </div>
-            <div class="flex items-center justify-center w-[123px] h-[52px] rounded-[50px] gap-[10px] bg-[#41FF6B1A] ">
-                <span id="coin-icon" >100</span>
-                <img class="h-[30px] w-[30px]" src="./assets/coin.png" alt="">
+            <div class="flex items-center justify-center w-[60px] h-[35px] lg:w-[123px] lg:h-[52px] rounded-[50px] gap-[10px] bg-[#41FF6B1A] ">
+                <span class="text-[15px] lg:text-[18px]" id="coin-icon" >100</span>
+                <img class="h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]" src="./assets/coin.png" alt="">
             </div>
-            <p class="flex items-center justify-center w-[123px] h-[52px] rounded-[50px] gap-[10px] bg-[#00A63E] "><span id="copy-icon">0</span> Copy</p>
+            <p class="flex items-center justify-center text-[14px] w-[60px] h-[35px] lg:w-[123px] lg:h-[52px] rounded-[50px] gap-[6px] lg:gap-[10px] bg-[#00A63E] "><span class="text-[15px] lg:text-[18px]" id="copy-icon">0</span> Copy</p>
         </div>
     </nav>
 
@@ -54,9 +43,9 @@
 
                                 <!-- ---card-container--- -->
 
-    <main class="mx-[60px] flex justify-between gap-[30px] mb-[86px]">
-        <div class=" grid grid-cols-3 gap-x-[30px] gap-y-[30px] w-4/5">
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+    <main class="mx-[20px] lg:mx-[60px] lg:flex justify-between lg:gap-[30px] lg:mb-[86px]">
+        <div class=" grid grid-cols-2 lg:grid-cols-3 gap-x-[15px] lg:gap-x-[30px] gap-y-[30px] lg:w-4/5 mb-[25px] lg:mb-[0px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]">
                          <img class="h-[32px]" src="./assets/emergency.png" alt="">
@@ -80,7 +69,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#DFEFFF]">
                         <img class="h-[32px]" src="./assets/police.png" alt="">
@@ -104,7 +93,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/fire-service.png" alt="">
@@ -128,7 +117,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/ambulance.png" alt="">
@@ -153,7 +142,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/emergency.png" alt="">
@@ -178,7 +167,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/emergency.png" alt="">
@@ -203,7 +192,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/emergency.png" alt="">
@@ -228,7 +217,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/brac.png" alt="">
@@ -253,7 +242,7 @@
                 </div>
                 </div>
             </div>
-            <div class="shadow-md bg-[#ffffff] px-[32px] py-[25px] rounded-[12px]">
+            <div class="shadow-md flex flex-col justify-around bg-[#ffffff] px-[15px] lg:px-[32px] py-[15px] lg:py-[25px] rounded-[12px]">
                 <div class="flex items-center justify-between mb-[16px]">
                     <div class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-[#FFE3E2]"class=" flex items-center justify-center rounded-[15px] w-[60px] h-[60px] bg-red-300">
                         <img class="h-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
@@ -302,15 +291,15 @@
         
 
     <!-- ---alert-section--- -->
-     <div id="alert" class="hidden fixed inset-0 bg-[#00000051] ">
-        <div class="relative left-[35%] bg-gray-900 rounded-lg shadow-lg h-[150px] w-[400px] px-[8px] py-6 ">
-            <h2 class="text-[16px] font-bold text-gray-100 mb-4">
+     <div id="alert" class="hidden fixed inset-0 bg-[#00000051]">
+        <div class="relative left-[12%] lg:left-[35%] bg-gray-900 rounded-lg shadow-lg h-[100px] w-[300px] lg:h-[150px] lg:w-[400px] px-[8px] py-6 ">
+            <h2 class="text-[13px] lg:text-[16px] font-bold text-gray-100 mb-4">
                 emergency.service.netlify.app.says
             </h2>
-            <p class="text-gray-100 text-[12px] mb-6">
+            <p class="text-gray-100 text-[10px] lg:text-[12px] mb-6">
                 📞 Calling <span id="service-name"></span> Service <span id="service-num" class="font-semibold"></span>...
             </p>
-            <button id="alert-close-btn" class="bg-gray-100 hover:bg-red-600 absolute right-4 bottom-4 font-semibold px-6 py-2 rounded-[50px] shadow">
+            <button id="alert-close-btn" class="bg-gray-100  hover:bg-red-600 hover:text-gray-100 absolute right-4 bottom-4 font-semibold px-3 py-[1px] lg:px-6 lg:py-2 rounded-[50px] shadow">
                 ok
             </button>
         </div>
@@ -318,14 +307,14 @@
 
      <!-- ----------copy-alert-section------- -->
      <div id="copy-alert" class="hidden fixed inset-0 bg-[#00000051] ">
-        <div class="relative left-[35%] bg-gray-900 rounded-lg shadow-lg h-[150px] w-[400px] px-[8px] py-6 ">
-            <h2 class="text-[16px] font-bold text-gray-100 mb-4">
+        <div class="relative left-[12%] lg:left-[35%]] bg-gray-900 rounded-lg shadow-lg h-[100px] w-[300px] lg:h-[150px] lg:w-[400px] px-[8px] py-6 ">
+            <h2 class="text-[13px] lg:text-[16px] font-bold text-gray-100 mb-4">
                 emergency.service.netlify.app.says
             </h2>
-            <p class="text-gray-100 text-[12px] mb-6">
+            <p class="text-gray-100 text-[10px] lg:text-[12px] mb-6">
                  নম্বর কপি হয়েছে-<span id="copy-num" class="font-semibold"></span>...
             </p>
-            <button id="copy-alert-close-btn" class="bg-gray-100 hover:bg-red-600 absolute right-4 bottom-4 font-semibold px-6 py-2 rounded-[50px] shadow">
+            <button id="copy-alert-close-btn" class="bg-gray-100 hover:bg-red-600 absolute right-4 bottom-4 font-semibold px-3 py-[1px] lg:px-6 lg:py-2 rounded-[50px] shadow">
                 ok
             </button>
         </div>
